@@ -39,10 +39,12 @@ $data = json_decode(file_get_contents('data.json'));
  </p>
  <p><h5>Kernel:</h5>
   <a href='<?=$data->kernel->url?>'><?=$data->kernel->name?></a><br>
-  <?=$data->governor->name?> CPU governor
  </p>
  <p><h5>Recovery:</h5>
   <a href='<?=$data->recovery->url?>'><?=$data->recovery->name?></a>
+ </p>
+ <p><h5>CPU:</h5>
+  <?=$data->governor->name?> CPU governor
  </p>
 </div>
 </body>
