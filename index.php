@@ -46,6 +46,11 @@ $data = json_decode(file_get_contents('data.json'));
  <p><h5>CPU:</h5>
   <?=$data->governor->name?> CPU governor
  </p>
+ <p><h5>Undervolt values:</h5>
+  <? foreach($data->undervolt as $freq => $volt) {
+   echo $freq . 'MHz: ' . $volt . "mV<br>\n";
+  }?> 
+ </p>
 </div>
 </body>
 </html>
