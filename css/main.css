@@ -7,8 +7,6 @@ body {
 
 #phone {
  background-image: url('images/nexus_small.png');
- /*height: 1671px;
- width: 854px;*/
  width: 427px;
  height: 836px;
  float: left;
@@ -16,19 +14,19 @@ body {
 }
 
 #phone img {
- /*padding-left: 66px;
- padding-top: 212px;*/
  padding-left: 33px;
  padding-top: 106px;
 }
 
+h2, h5 {
+ font-family: 'RobotoRegular', sans-serif;
+}
+
 h2 {
- font-family: 'RobotoBold', sans-serif;
  text-align: center;
 }
 
 h5 {
- font-family: 'RobotoBold', sans-serif;
  margin:0;
  padding:0;
 }
