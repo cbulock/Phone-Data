@@ -14,18 +14,18 @@
   },
  "rom" : 
   {
-   "name" : "Vicious JellyBean",
-   "url" : "http://rootzwiki.com/topic/28486-rom-vicious-toro-jellybean-fully-100-fucntional-deodexed-calls-wifi-data-3g-4g-v2-available-link-for-stock-kernel-added-633pm-06282012/",
-   "android_version" : "4.1.1"
+   "name" : "Cyanogenmod 10",
+   "url" : "http://get.cm/?type=nightly&device=toro",
+   "android_version" : "4.1.2"
   },
  "kernel" :
   {
-   "name" : "franco.Kernel",
-   "url" : "http://forum.xda-developers.com/showthread.php?t=1422956"
+   "name" : "cyanogenmod",
+   "url" : "http://get.cm/?type=nightly&device=toro"
   },
  "governor" :
   {
-   "name" : "wheatley"
+   "name" : "interactive"
   },
  "recovery" :
   {
