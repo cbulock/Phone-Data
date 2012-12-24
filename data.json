@@ -14,9 +14,9 @@
   },
  "rom" : 
   {
-   "name" : "Cyanogenmod 10",
+   "name" : "Cyanogenmod 10.1",
    "url" : "http://get.cm/?type=nightly&device=toro",
-   "android_version" : "4.1.2"
+   "android_version" : "4.2.1"
   },
  "kernel" :
   {
@@ -29,8 +29,8 @@
   },
  "recovery" :
   {
-   "name" : "ClockworkMod Touch",
-   "url" : "https://plus.google.com/112476065271141473049/posts/gzoPGMFEGYQ"
+   "name" : "TWRP",
+   "url" : "http://teamw.in/project/twrp2/89"
   },
  "network" :
  {
